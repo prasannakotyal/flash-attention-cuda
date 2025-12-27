@@ -87,9 +87,9 @@ Results on RTX 3050 Laptop GPU (N=512, d=64):
 
 | Method | Time (ms) | Speedup vs CPU | Memory |
 |--------|-----------|----------------|--------|
-| CPU | 109.5 | 1.0x | N/A |
-| Naive GPU | 12.4 | 8.8x | 1.00 MB (N^2) |
-| Flash GPU | 0.67 | 164x | 28 KB (tiles) |
+| CPU | 104.8 | 1.0x | N/A |
+| Naive GPU | 12.4 | 8.4x | 1.00 MB (N^2) |
+| Flash GPU | 0.67 | 157.6x | 28 KB (tiles) |
 
 Memory reduction: 36.6x compared to naive implementation.
 
